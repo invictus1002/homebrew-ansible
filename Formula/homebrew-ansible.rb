@@ -15,9 +15,9 @@ class AnsibleAT28 < Formula
     sha256 cellar: :any_skip_relocation, x86_64_linux: "ce97b8ec3ea2d975c27f6018231261cddc8fb750be7067b630746a0b7296ad9b"
   end
 
-  keg_only :versioned_formula
+  # keg_only :versioned_formula
 
-  disable! date: "2022-07-31", because: :versioned_formula
+  # disable! date: "2022-07-31", because: :versioned_formula
 
   depends_on "pkg-config" => :build
   depends_on "rust" => :build
